@@ -5,10 +5,10 @@ let hasLetter = false
 if (password.length < 10){
     console.log("Failure")
 }
- if (password.length > 20) {
+    else if (password.length > 20) {
     console.log("Failure")
 }
-if (password === "password"){
+    else if (password === "password"){
     console.log("Failure")
 }
 for (i = 0; i < password.length; i++){
